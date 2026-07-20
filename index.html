@@ -1,49 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            line-height: 1.6;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-        }
-        .container {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 10px;
-            backdrop-filter: blur(10px);
-        }
-        a {
-            color: #ffd700;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lovina Dmello - Senior Deep Learning Infrastructure Engineer</title>
+  <meta name="description" content="Lovina Dmello is a Senior Deep Learning Infrastructure Software Engineer at NVIDIA working on TensorRT security, GPU build & release infrastructure, and MLOps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>🌟 Welcome!</h1>
-        <h2>My First GitHub Pages Website</h2>
-        <p>Hello! This is my personal website hosted for FREE on GitHub Pages.</p>
-        <p>Website URL: <a href="#">https://your-username.github.io</a></p>
-        <p>Created: <span id="date"></span></p>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Lovina <span>Dmello</span></a>
+      <div class="nav-links">
+        <a href="index.html" class="active">About</a>
+        <a href="articles.html">Articles</a>
+        <a href="talks.html">Talks</a>
+        <a href="experience.html">Experience</a>
+      </div>
     </div>
-    
-    <script>
-        document.getElementById('date').textContent = new Date().toLocaleDateString();
-    </script>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Senior Deep Learning Infrastructure Engineer @ NVIDIA</p>
+          <h1>Building reliable, secure <span class="grad">AI inference infrastructure</span>.</h1>
+          <p class="lead">
+            I'm Lovina Dmello, a senior software engineer with 10+ years across deep
+            learning inference infrastructure, software security, and CI/CD. At NVIDIA,
+            I harden TensorRT's untrusted-input attack surface and build the GPU software
+            build and release infrastructure that powers the deep learning ecosystem.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="talks.html">Watch my talks</a>
+            <a class="btn btn-ghost" href="articles.html">Read my writing</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/lovina.png" alt="Lovina Dmello" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <p class="section-sub">
+        Strong in C/C++ and Python, with a track record spanning memory-safety and
+        input-validation security work, cross-compilation toolchains, and large-scale
+        build automation with Jenkins, Docker, Kubernetes, Terraform, Conan, and Ansible.
+        Also experienced in cloud infrastructure and application migration (Oracle Cloud),
+        distributed databases, and full-stack web development. I'm a certified Oracle
+        specialist, and highly collaborative, with a focus on delivering reliable, user-centric
+        systems and continuously learning new technologies.
+      </p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Deep Learning Infrastructure</h3>
+          <p>TensorRT, deep learning libraries, GPU software infrastructure, and model validation workflows.</p>
+        </div>
+        <div class="card">
+          <h3>AI/ML Systems &amp; Security</h3>
+          <p>MLOps, LLMOps, AI/ML security, adversarial machine learning, and agentic AI systems.</p>
+        </div>
+        <div class="card">
+          <h3>Infrastructure &amp; CI/CD</h3>
+          <p>Build automation, release validation, and developer workflows on Linux, Docker, Kubernetes, Jenkins, and Terraform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">Core technologies and tools I work with day to day.</p>
+      <div class="chips">
+        <span class="chip">TensorRT</span>
+        <span class="chip">C / C++</span>
+        <span class="chip">Python</span>
+        <span class="chip">CUDA</span>
+        <span class="chip">Java</span>
+        <span class="chip">PL/SQL</span>
+        <span class="chip">Shell Scripting</span>
+        <span class="chip">Docker</span>
+        <span class="chip">Kubernetes</span>
+        <span class="chip">Jenkins</span>
+        <span class="chip">Terraform</span>
+        <span class="chip">Conan</span>
+        <span class="chip">Ansible</span>
+        <span class="chip">ONNX</span>
+        <span class="chip">AddressSanitizer</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">Oracle</span>
+        <span class="chip">DynamoDB</span>
+        <span class="chip">Cassandra</span>
+        <span class="chip">Scikit-Learn</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Highlights</h2>
+      <p class="section-sub">A few recent things worth sharing.</p>
+      <div class="grid grid-2">
+        <a class="card" href="articles.html" style="text-decoration:none;color:inherit;">
+          <div class="meta">FEATURED ARTICLE · NVIDIA TECHNICAL BLOG</div>
+          <h3>How to Eliminate Pipeline Friction in AI Model Serving</h3>
+          <p>Actionable best practices for removing the most common sources of friction in AI model serving pipelines, from export validation to Dynamo-Triton.</p>
+          <div class="tag-row">
+            <span class="tag">TensorRT</span>
+            <span class="tag">MLOps</span>
+            <span class="tag">AI Inference</span>
+          </div>
+        </a>
+        <a class="card" href="talks.html" style="text-decoration:none;color:inherit;">
+          <div class="meta">FEATURED TALK</div>
+          <h3>Speaking on AI infrastructure &amp; MLOps</h3>
+          <p>I share practical insights on deep learning infrastructure, TensorRT, and secure, reliable model serving through talks and published writing.</p>
+          <div class="tag-row">
+            <span class="tag">Talk</span>
+            <span class="tag">AI Infrastructure</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Lovina Dmello · California</div>
+      <div class="social">
+        <a href="mailto:lovina.dmello.06@gmail.com">Email</a>
+        <a href="https://scholar.google.com/citations?user=vqytSYoAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+        <a href="https://linkedin.com/in/lovina25" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://developer.nvidia.com/blog/author/ldmello/" target="_blank" rel="noopener">NVIDIA Blog</a>
+        <a href="https://www.youtube.com/watch?v=XjI-AR4pt7Y" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

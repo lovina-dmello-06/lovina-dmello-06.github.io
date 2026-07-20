@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articles - Lovina Dmello</title>
+  <meta name="description" content="Articles and technical writing by Lovina Dmello on TensorRT, AI inference, MLOps, and deep learning infrastructure." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Lovina <span>Dmello</span></a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="articles.html" class="active">Articles</a>
+        <a href="talks.html">Talks</a>
+        <a href="experience.html">Experience</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-head">
+    <div class="container">
+      <p class="eyebrow">Articles</p>
+      <h1 class="section-title" style="font-size:clamp(2rem,4vw,2.8rem);">Technical writing</h1>
+      <p class="section-sub">
+        I share insights through research papers, open source projects, and writing on
+        AI/ML security, adversarial machine learning, agentic AI systems, MLOps, LLMOps,
+        TensorRT, deep-learning libraries, and infrastructure best practices.
+      </p>
+    </div>
+  </header>
+
+  <section style="padding-top:8px;">
+    <div class="container">
+      <div class="grid grid-2">
+        <a class="card" href="https://developer.nvidia.com/blog/how-to-eliminate-pipeline-friction-in-ai-model-serving/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+          <div class="meta">NVIDIA TECHNICAL BLOG · MAY 12, 2026</div>
+          <h3>How to Eliminate Pipeline Friction in AI Model Serving</h3>
+          <p>
+            The path from a trained AI model to production should be smooth, but rarely is.
+            This post provides actionable best practices for eliminating the most common
+            sources of friction (model export issues, unsupported operations, dynamic input
+            sizes, and version mismatches) with concrete tooling like TensorRT optimization
+            profiles, plugin extensions, trtexec, Nsight, and Dynamo-Triton.
+          </p>
+          <div class="tag-row">
+            <span class="tag">TensorRT</span>
+            <span class="tag">MLOps</span>
+            <span class="tag">AI Inference</span>
+            <span class="tag">Dynamo-Triton</span>
+            <span class="tag">ONNX</span>
+          </div>
+        </a>
+
+        <a class="card" href="https://cacm.acm.org/blogcacm/why-systems-engineering-increasingly-sets-the-pace-of-ai-progress/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+          <div class="meta">COMMUNICATIONS OF THE ACM (BLOG@CACM) · 2026</div>
+          <h3>Why Systems Engineering Increasingly Sets the Pace of AI Progress</h3>
+          <p>
+            AI progress has become infrastructure-bound: the systems layer is no longer
+            downstream of the ideas; it shapes which ideas can even be expressed. This piece
+            argues that when the cost of executing an idea decides whether it exists, the
+            execution layer becomes part of the science itself.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Systems Engineering</span>
+            <span class="tag">AI Infrastructure</span>
+            <span class="tag">Reproducibility</span>
+          </div>
+        </a>
+
+        <a class="card" href="https://medium.com/@lovina.dmello.06/tensorrt-supercharging-deep-learning-inference-a2b51f0c4128" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+          <div class="meta">MEDIUM · JAN 21, 2026</div>
+          <h3>TensorRT: Supercharging Deep Learning Inference</h3>
+          <p>
+            A practical introduction to how NVIDIA TensorRT optimizes and accelerates deep
+            learning inference on GPUs, covering layer fusion, kernel auto-tuning, precision
+            calibration, and quantization to cut latency and raise throughput in production.
+          </p>
+          <div class="tag-row">
+            <span class="tag">TensorRT</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">GPU Inference</span>
+          </div>
+        </a>
+
+        <a class="card" href="https://scholar.google.com/citations?user=vqytSYoAAAAJ&hl=en" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+          <div class="meta">RESEARCH · UNIVERSITY OF GEORGIA · 2018</div>
+          <h3>Classifying Windows Ransomware Based on Runtime Behavior Using Machine Learning</h3>
+          <p>
+            Master's thesis research classifying Windows ransomware by run-time behavior using
+            four ML algorithms (KNN, Naive Bayes, SVM, RFC), with mutual-information feature
+            selection that significantly improved classification accuracy.
+          </p>
+          <div class="tag-row">
+            <span class="tag">ML Security</span>
+            <span class="tag">Ransomware</span>
+            <span class="tag">Feature Selection</span>
+          </div>
+        </a>
+      </div>
+
+      <div style="margin-top:28px;">
+        <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=vqytSYoAAAAJ&hl=en" target="_blank" rel="noopener">View full list on Google Scholar</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Lovina Dmello · California</div>
+      <div class="social">
+        <a href="mailto:lovina.dmello.06@gmail.com">Email</a>
+        <a href="https://scholar.google.com/citations?user=vqytSYoAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+        <a href="https://linkedin.com/in/lovina25" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://developer.nvidia.com/blog/author/ldmello/" target="_blank" rel="noopener">NVIDIA Blog</a>
+        <a href="https://www.youtube.com/watch?v=XjI-AR4pt7Y" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

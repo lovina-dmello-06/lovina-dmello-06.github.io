@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experience - Lovina Dmello</title>
+  <meta name="description" content="Professional experience, education, and certifications of Lovina Dmello, Senior Deep Learning Infrastructure Software Engineer at NVIDIA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Lovina <span>Dmello</span></a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="articles.html">Articles</a>
+        <a href="talks.html">Talks</a>
+        <a href="experience.html" class="active">Experience</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-head">
+    <div class="container">
+      <p class="eyebrow">Experience</p>
+      <h1 class="section-title" style="font-size:clamp(2rem,4vw,2.8rem);">10+ years of engineering</h1>
+      <p class="section-sub">
+        Deep learning inference infrastructure, software security, cloud migration, and
+        full-stack development across NVIDIA, Apple, Oracle, and beyond.
+      </p>
+    </div>
+  </header>
+
+  <section style="padding-top:8px;">
+    <div class="container">
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="when">2025 - Present</div>
+          <h3>Senior Deep Learning Infrastructure Software Engineer</h3>
+          <div class="where">NVIDIA</div>
+          <ul>
+            <li>Led a full-repository security audit of TensorRT attack surfaces and coordinated remediation across memory-safety and input-validation defects.</li>
+            <li>Reviewed ONNX model parsing, serialized engine deserialization, and plugin deserialization paths to reduce risk from untrusted inputs.</li>
+            <li>Remediated attacker-controlled memory-safety vulnerabilities in production C++ with bounds validation and regression tests run under AddressSanitizer.</li>
+            <li>Designed Linux-to-Windows cross-compilation infrastructure using LLVM, Wine, MSVC, Ansible, Docker, and Jenkins shared-library updates.</li>
+            <li>Coordinated recurring CUDA version migrations for cross-build images while keeping container and CI image tags consistent.</li>
+            <li>Maintained containerized build images, CI library logic, and release-validation workflows across TensorRT repositories using Jenkins/Bloom, Docker, Kubernetes, Conan, and Ansible.</li>
+            <li>Diagnosed build, test, and integration failures across large C++ and Python codebases and drove fixes through iterative code review.</li>
+          </ul>
+        </div>
+
+        <div class="tl-item">
+          <div class="when">2021 - 2025</div>
+          <h3>Senior Software Developer</h3>
+          <div class="where">Apple</div>
+          <ul>
+            <li>Implemented APIs to verify identity during driver's license provisioning in Apple Wallet.</li>
+            <li>Built certification support for ML models used in liveness-score detection.</li>
+            <li>Collaborated with product, engineering, SRE, and compliance teams to deliver user-focused wallet provisioning workflows.</li>
+            <li>Gathered user feedback and worked with product managers to prioritize roadmap items and product enhancements.</li>
+            <li>Created KPI metrics and reports used by SRE to monitor customer-facing events.</li>
+            <li>Conducted production-support analysis and collaborated across teams to resolve provisioning workflow issues.</li>
+            <li>Set up CI/CD pipelines using Rio and automated localization workflows.</li>
+          </ul>
+        </div>
+
+        <div class="tl-item">
+          <div class="when">2018 - 2021</div>
+          <h3>Software Developer</h3>
+          <div class="where">Oracle</div>
+          <ul>
+            <li>Contributed to OCI migration services for moving OAC and JCS applications from classic environments to OCI gen2.</li>
+            <li>Supported lift-and-shift migration from ZFS backend storage to OCI block storage to improve scalability and performance.</li>
+            <li>Conducted end-to-end testing and QA for migration workflows, minimizing downtime and preserving data integrity.</li>
+            <li>Automated network deployment using Terraform, Jenkins, and Kubernetes, reducing manual effort and human error.</li>
+            <li>Developed Python Django, HTML, CSS, and ReactJS tooling to estimate OCI deployment costs.</li>
+            <li>Designed OCI network architectures and supported Oracle Cloud, Autonomous Database, Kubernetes, Docker, networking, and compute POCs.</li>
+            <li>Built hands-on workshops for Autonomous Transaction Processing and Autonomous Data Warehouse products.</li>
+          </ul>
+        </div>
+
+        <div class="tl-item">
+          <div class="when">2016 - 2018</div>
+          <h3>Software Developer</h3>
+          <div class="where">CCRC</div>
+          <ul>
+            <li>Developed RESTful web services for Spring Boot applications and Eclipse RCP plugins using Java.</li>
+            <li>Created JUnit test coverage, debugged application issues, and supported release-quality validation.</li>
+            <li>Enhanced client applications through schema definitions, XML transformation, and Eclipse-based tooling.</li>
+            <li>Developed SEO strategy and 38 web pages for an analytical-services website, improving search rankings and business orders.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="meta">2015 - 2016</div>
+          <h3>M.S. in Computer Science</h3>
+          <p style="color:var(--muted);margin-bottom:12px;">University of Georgia</p>
+          <p>
+            Thesis: classified Windows ransomware by run-time behavior using four machine
+            learning algorithms (KNN, Naive Bayes, SVM, RFC), applying mutual-information
+            feature selection to significantly improve accuracy.
+          </p>
+        </div>
+        <div class="card">
+          <div class="meta">2011 - 2015</div>
+          <h3>B.S. in Computer Science</h3>
+          <p style="color:var(--muted);">University of Mumbai</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Awards &amp; Certifications</h2>
+      <div class="chips">
+        <span class="chip">Oracle Autonomous Database Cloud 2019, Certified Specialist</span>
+        <span class="chip">Oracle Cloud Infrastructure 2018, Certified Architect Associate</span>
+        <span class="chip">Oracle Cloud Platform Application Integration 2018, Certified Associate</span>
+        <span class="chip">Oracle Certified Java Programmer (2014)</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Lovina Dmello · California</div>
+      <div class="social">
+        <a href="mailto:lovina.dmello.06@gmail.com">Email</a>
+        <a href="https://scholar.google.com/citations?user=vqytSYoAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+        <a href="https://linkedin.com/in/lovina25" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://developer.nvidia.com/blog/author/ldmello/" target="_blank" rel="noopener">NVIDIA Blog</a>
+        <a href="https://www.youtube.com/watch?v=XjI-AR4pt7Y" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
