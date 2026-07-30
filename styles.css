@@ -37,8 +37,17 @@ body {
   font-family: var(--font-body);
   font-weight: 400;
   background-color: var(--paper-bg);
+  background-image: radial-gradient(
+      900px 480px at 85% -8%,
+      rgba(229, 115, 115, 0.05),
+      transparent 60%
+    ),
+    radial-gradient(rgba(90, 70, 50, 0.035) 1px, transparent 1.4px);
+  background-size: auto, 22px 22px;
   color: var(--ink-dark);
   line-height: 1.7;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -178,9 +187,9 @@ a:hover {
 }
 
 .hero h1 {
-  font-size: clamp(2.6rem, 5.5vw, 4rem);
-  line-height: 1.08;
-  margin: 0 0 20px;
+  font-size: clamp(2.7rem, 5.6vw, 4.1rem);
+  line-height: 1.04;
+  margin: 0 0 24px;
   color: var(--ink-dark);
 }
 
@@ -409,11 +418,14 @@ section {
 }
 
 .tl-item .where {
-  color: var(--ink-mid);
-  font-weight: 400;
-  font-style: italic;
+  display: inline-block;
+  color: var(--ink-dark);
+  font-weight: 700;
   margin-bottom: 12px;
-  font-size: 1.05rem;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  border-bottom: 2px solid var(--coral-soft);
+  padding-bottom: 1px;
 }
 
 .tl-item ul {
